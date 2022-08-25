@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.main-container{
+    width: 90%;
+    margin: 20px auto;
+    background-color: #f9f8fc;
+}
+.container{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.section-container{
+    width: 50%;
+    background: #d9d4e7;
+}
+.section-container h1{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.item-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+.item-quantity{
+    background: #a786df;
+    border: 2px solid white;
+    border-radius:5px;
+    margin-bottom: 10px;
+}
+.decrease{
+    font-size: x-large;
+    border-right: 2px solid white;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.increase{
+    font-size: x-large;
+    border-left: 2px solid white;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.quantity{
+    font-size: large;
+    padding: 0 10px;
+}
+button{
+    font-size: x-large;
+    padding: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+    background: #0e172c;
+    color: #fffffe;
+}
+
+.price-container{
+    width: 40%;
+    margin: 10px;
+    background: #fec7d7;
+}
+.price-container h1{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+table, td, th {
+    border: 1px solid;
+    text-align: center;
+    padding: 5px;
+  }
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+input{
+    padding: 5px;
+}
+.form p{
+    color: red;
+}
+h4{
+    text-align: center;
+}
